@@ -1,11 +1,11 @@
-  applications:
-  - name: djangoapp
+applications:
+  - name: car_rental
     routes:
-      - route: $HOST.$DOMAIN
+      - route: car-rental.eu-gb.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: cars
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: cars.apic.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack

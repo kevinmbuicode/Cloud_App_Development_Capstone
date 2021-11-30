@@ -27,7 +27,8 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["127.0.0.1", "car-rental.eu-gb.mybluemix.net",
+                 "cars.eu-gb.mybluemix.net/static"]
 
 
 # Application definition

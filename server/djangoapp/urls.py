@@ -29,6 +29,10 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('djangoapp/contact/', views.contact, name='contact'),
 
+    path('logout/', views.logout_request, name='logout'),
+    path('logout/logout', views.logout_request, name='logout'),
+    path('djangoapp/logout/', views.logout_request, name='logout'),
+
     path(route='', view=views.get_dealerships, name='index'),
 
     # paths appear twice I understand, but the first ones are the ones I configured in knowledge of the user may..

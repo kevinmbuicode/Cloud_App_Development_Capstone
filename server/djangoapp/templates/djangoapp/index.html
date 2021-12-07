@@ -27,7 +27,7 @@
                 {% if user.is_authenticated %}
                 <li>
                     <a class="btn btn-link" href="#">{{ user.first_name }}({{ user.username }})</a>
-                    <a class="btn btn-link" href="{% url 'onlinecourse:logout' %}">Logout</a>
+                    <a class="btn btn-link" href="{ % url 'onlinecourse:logout' % }">Logout</a>
                 </li>
                 {% else %}
                 <li>
@@ -45,6 +45,8 @@
             </ul>
         </div>
     </nav>
+
+    <p>This is some content on the home page after signing in.</p>
     <button class="btn btn-primary" type="submit" onclick="document.location='contact'">Contact</button>
     <!--Add a dealer table here -->
     </body>

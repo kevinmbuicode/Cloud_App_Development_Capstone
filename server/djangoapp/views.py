@@ -28,12 +28,17 @@ def contact(request):
     return render(request, 'djangoapp/contact.html', {})
 
 # Create a `login_request` view to handle sign in request
+
+
 def login_request(request):
     return render(request, )
 # ...
 
 # Create a `logout_request` view to handle sign out request
-# def logout_request(request):
+
+
+def logout_request(request):
+    return render(request, 'djangoapp/logout.html', {})
 # ...
 
 # Create a `registration_request` view to handle sign up request

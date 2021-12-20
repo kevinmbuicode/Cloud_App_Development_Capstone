@@ -35,8 +35,9 @@ urlpatterns = [
 
     path(route='', view=views.get_dealerships, name='index'),
 
-    # paths appear twice I understand, but the first ones are the ones I configured in knowledge of the user may..
-    # input the website url and add a path directly rather than getting inside the website/homedirectory to..
-    # access an inner/already known path eg 'domain_name/contact.'
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+'''paths appear twice I understand, but the first ones are the ones I configured in knowledge of the user may..
+     input the website url and add a path directly rather than getting inside the website/homedirectory to..
+     access an inner/already known path eg 'domain_name/contact.'''

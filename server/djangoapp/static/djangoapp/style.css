@@ -44,6 +44,14 @@
   justify-content: center;
   flex-direction: column;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container .reviews {
+  display: flex;
+  flex-direction: row;
+}
 
 .icons {
   display: flex;

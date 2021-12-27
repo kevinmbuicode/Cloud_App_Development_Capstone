@@ -12,6 +12,22 @@
 </head>
     <body>
     <!--Add review form here -->
-    <p>This is a review page that requires a review form </p>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Review message</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter review">
+          <small id="emailHelp" class="form-text text-muted">Share your review here to post to public.</small>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Has purchased the car from Sub-Ex Car Dealearship</label>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="document.location='submission'">Submit</button>
+      </form>
     </body>
+    <script type="text/javascript">
+        $('.date-own').datepicker({
+           format: 'mm/dd/yyyy'
+         });
+   </script>
 </html>

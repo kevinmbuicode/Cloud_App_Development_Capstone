@@ -31,6 +31,6 @@ You must complete all the labs to successfully complete the project.
 2. Create a page that show reviews for a selected dealer
 3. Create a page that let's the end user add a review for a selected dealer
 
-**Containerize your application**
+**Containerize your application (docker)**
 1. Add deployment artifacts to your application
 2. Deploy your application
